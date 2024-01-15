@@ -28,7 +28,7 @@ public class Main {
         System.out.println("Задание4");
         var friend = 19;
         System.out.println(friend);
-        friend = 19 + 2;
+        friend = friend + 2;
         System.out.println(friend);
         friend = friend / 7;
         System.out.println(friend);
@@ -36,7 +36,7 @@ public class Main {
         System.out.println("Задание5");
         var frog = 3.5;
         System.out.println(frog);
-        frog = 3.5 * 10;
+        frog = frog * 10;
         System.out.println(frog);
         frog = frog / 3.5;
         System.out.println(frog);
@@ -59,7 +59,7 @@ public class Main {
         var totalEmployees = workingHours / workingHoursOneEmployee;
         System.out.println("Всего работников в компании — " + totalEmployees + " человек");
         totalEmployees = totalEmployees + 94;
-        System.out.println("Если в компании работает " + totalEmployees + " человек, то всего " + workingHours / totalEmployees * totalEmployees + " часов работы может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает " + totalEmployees + " человек, то всего " + workingHoursOneEmployee * totalEmployees + " часов работы может быть поделено между сотрудниками");
 
 
 
